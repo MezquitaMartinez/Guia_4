@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_height="200dp"
+        android:layout_width="200dp"
+        android:id="@+id/imgFondo"
+        android:layout_alignStart="@+id/imgFondo2"
+        android:layout_alignLeft="@+id/imgFondo2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/lego"
+        android:background="@color/colorAccent"/>
+
+    <ImageView
+        android:layout_height="200dp"
+        android:layout_width="200dp"
+        android:id="@+id/imgFondo2"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/images"
+        android:background="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imgFondo"/>
+</RelativeLayout>
